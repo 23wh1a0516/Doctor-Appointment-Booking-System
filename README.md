@@ -1,46 +1,147 @@
-# Doctor Appointment Booking System
+# Doctor Appointment Management System
 
-This repository contains a MERN stack app for doctor appointment booking.
+## Project Overview
 
-## Structure
+The **Doctor Appointment Management System** is a full-stack web application designed to digitize and streamline the process of managing medical appointments. It enables patients to book appointments with doctors, allows doctors to efficiently manage schedules and appointment requests, and optionally provides admin-level control for overseeing system operations.
 
-- `backend/` - Express API, MongoDB connection, authentication, and dashboard routes
-- `frontend/` - React app with Home, Login, Signup, and Dashboard pages
+---
 
-## Setup
+## Users of the System
 
-1. Install backend dependencies:
-   ```bash
-   cd backend
-   npm install
-   ```
-2. Create a `.env` file in `backend/` with:
-   ```env
-   MONGO_URI=mongodb://127.0.0.1:27017/doctorBooking
-   JWT_SECRET=your_jwt_secret_here
-   PORT=5000
-   ```
-3. Start backend:
-   ```bash
-   npm run dev
-   ```
-4. Install frontend dependencies:
-   ```bash
-   cd ../frontend
-   npm install
-   ```
-5. Start frontend:
-   ```bash
-   npm start
-   ```
+###  Patient
 
-## Notes
+* Register and log in securely
+* View available doctors
+* Book medical appointments
+* View appointment history
+* Cancel appointments
 
-- The landing page includes a "Get Started" button redirecting to login.
-- The login page includes a signup link directing to the signup page.
-- Account creation uses role-based signup: `user`, `doctor`, and `admin`.
-- After login, the app redirects to a role-aware dashboard.
+###  Doctor
 
-## MongoDB
+* Secure login
+* View assigned appointments
+* Manage availability and schedule
+* Approve, reject, or complete appointments
 
-Use local MongoDB or a cloud URI. If you use MongoDB Atlas, update `MONGO_URI` accordingly.
+### Admin
+
+* Add or remove doctors
+* View registered users
+* Monitor and manage all appointments
+
+---
+
+##  Key Features
+
+* Secure authentication and authorization using **JWT**
+* Role-based access control (**Patient / Doctor / Admin**)
+* Appointment booking with real-time availability checking
+* Appointment status tracking and management
+* Doctor availability and schedule management
+* Separate dashboards for patients and doctors
+
+---
+
+##  Application Pages
+
+* Login and Registration Page
+* Patient Dashboard
+* Doctor Dashboard
+* Book Appointment Page
+* Admin Panel 
+* Profile Page
+
+---
+
+##  Technology Stack
+
+### Frontend
+
+* React.js
+* React Router
+* Axios
+
+### UI Styling
+
+* Bootstrap / Material UI / Tailwind CSS
+
+### Backend
+
+* Node.js
+* Express.js
+
+### Authentication
+
+* JWT-based Authentication
+
+### Database
+
+* MongoDB
+* Mongoose ODM
+
+### API Architecture
+
+* RESTful APIs
+
+---
+
+##  Database Design
+
+### User Collection
+
+* Name
+* Email
+* Password
+* Role *(Patient / Doctor / Admin)*
+
+### Doctor Collection
+
+* User ID
+* Specialization
+* Availability
+* Experience
+
+### Appointment Collection
+
+* Patient ID
+* Doctor ID
+* Date
+* Time
+* Status
+
+---
+
+##  System Workflow
+
+1. Patient registers and logs into the system
+2. Patient views available doctors
+3. Patient selects a doctor and books an appointment
+4. Doctor reviews appointment requests
+5. Doctor approves or rejects appointments
+6. Patient views updated appointment status
+
+---
+
+##  Advantages
+
+* Reduces manual appointment handling
+* Saves time for both patients and doctors
+* Prevents appointment conflicts
+* Improves hospital efficiency
+* Scalable for multiple hospitals
+
+---
+
+##  Future Enhancements
+
+* Email and SMS notifications
+* Online payment integration
+* Video consultation support
+* AI-based doctor recommendations
+* Mobile application development
+
+---
+
+##  Conclusion
+
+The **Doctor Appointment Management System**, built using the **MERN stack**, is a complete full-stack solution that demonstrates real-world application development. It offers a secure, scalable, and user-friendly platform, making it an ideal academic as well as practical project.
