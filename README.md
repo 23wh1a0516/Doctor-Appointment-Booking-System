@@ -142,7 +142,7 @@ npm install
 
 Frontend:
 ```bash
-cd client
+cd frontend
 npm install
 ```
 
@@ -164,12 +164,13 @@ JWT_SECRET=your_secret_key
 
 Backend:
 ```bash
-npm run server
+cd backend
+npm run dev
 ```
 
 Frontend:
 ```bash
-cd client
+cd frontend
 npm start
 ```
 
@@ -189,7 +190,7 @@ npm start
 ## 📸 Screenshots
 
 ### Login Page
-(Add Screenshot Here)
+
 
 ### Patient Dashboard
 (Add Screenshot Here)
