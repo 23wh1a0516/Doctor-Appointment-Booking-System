@@ -190,16 +190,19 @@ npm start
 ## 📸 Screenshots
 
 ### Login Page
-![Login Page](screenshots/login_page.png)
+![Login Page](Screenshots/login_page.png)
 
 ### Patient Dashboard
-(Add Screenshot Here)
+![Patient dashboard](Screenshots/user_dashboard.png)
 
 ### Doctor Dashboard
-(Add Screenshot Here)
+![Doctor dashboard](Screenshots/doctor_dashboard.png)
+
+### Admin Dashboard
+![Admin dashboard](Screenshots/admin_dashboard.png)
 
 ### Appointment Booking
-(Add Screenshot Here)
+![Appointment booking](Screenshots/appointment.png)
 
 ---
 
