@@ -190,7 +190,7 @@ npm start
 ## 📸 Screenshots
 
 ### Login Page
-
+![Login Page](screenshots/login_page.png)
 
 ### Patient Dashboard
 (Add Screenshot Here)
