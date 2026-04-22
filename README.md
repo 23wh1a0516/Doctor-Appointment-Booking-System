@@ -5,6 +5,8 @@ A full-stack **Doctor Appointment Management System** built using the **MERN Sta
 The system supports **Patients, Doctors, and Admins** with secure authentication, role-based access control, appointment booking, schedule management, and appointment status tracking.
 
 ---
+## Demo Video
+[Click here to watch demo](Screenshots/project_demo.mp4)
 
 ## 🚀 Features
 
