@@ -6,7 +6,7 @@ The system supports **Patients, Doctors, and Admins** with secure authentication
 
 ---
 ## Demo Video
-[Click here to watch demo](Screenshots/project_demo.mp4)
+[Click here to watch demo](https://drive.google.com/file/d/1V0oWSDx3j7YRWtmgxdov2n8dRqx_eUVa/view?usp=sharing)
 
 ## 🚀 Features
 
